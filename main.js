@@ -38,7 +38,7 @@ const gameplay=(userChoice)=>{
 
     let win=(compchoice, userChoice)=>{
 
-        msg.innerText=`you win! 
+        msg.innerText=`you Win! 
         User = ${userChoice}
         Comp = ${compchoice} `;
         userScore++
